@@ -1,0 +1,90 @@
+[
+  {
+    "title": "1984",
+    "description": "A dystopian novel about a totalitarian regime that uses surveillance and propaganda to control its citizens.",
+    "releaseDate": "1949-06-08",
+    "genres": ["Dystopian", "Science Fiction"],
+    "author": "George Orwell",
+    "bookCover": "1984.jpg",
+    "characters": ["Winston Smith", "Julia", "O'Brien"],
+    "price": 9.99,
+    "isAvailable": true
+  },
+  {
+    "title": "Animal Farm",
+    "description": "A satirical tale about a group of farm animals who overthrow their human farmer, only to face a new tyranny among themselves.",
+    "releaseDate": "1945-08-17",
+    "genres": ["Political Satire", "Allegory"],
+    "author": "George Orwell",
+    "bookCover": "animal-farm.jpg",
+    "characters": ["Napoleon", "Snowball", "Boxer"],
+    "price": 7.5,
+    "isAvailable": true
+  },
+  {
+    "title": "The Electric State",
+    "description": "A graphic novel set in an alternate 1997, following a girl and her robot in a crumbling tech-driven world.",
+    "releaseDate": "2017-09-01",
+    "genres": ["Science Fiction", "Graphic Novel"],
+    "author": "Simon Stålenhag",
+    "bookCover": "electric-state.jpg",
+    "characters": ["Michelle", "Skip"],
+    "price": 18.0,
+    "isAvailable": true
+  },
+  {
+    "title": "The Old Man and the Sea",
+    "description": "An aging Cuban fisherman struggles with a giant marlin far out in the Gulf Stream.",
+    "releaseDate": "1952-09-01",
+    "genres": ["Literary Fiction", "Adventure"],
+    "author": "Ernest Hemingway",
+    "bookCover": "old-man-and-the-sea.jpg",
+    "characters": ["Santiago", "Manolin"],
+    "price": 6.99,
+    "isAvailable": true
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "description": "A story of racial injustice and childhood innocence in the Deep South, seen through the eyes of a young girl.",
+    "releaseDate": "1960-07-11",
+    "genres": ["Classic", "Historical Fiction"],
+    "author": "Harper Lee",
+    "bookCover": "mockingbird.jpg",
+    "characters": ["Scout", "Atticus Finch", "Jem"],
+    "price": 8.99,
+    "isAvailable": true
+  },
+  {
+    "title": "Brave New World",
+    "description": "A futuristic society engineered for conformity and happiness at the cost of individuality.",
+    "releaseDate": "1932-01-01",
+    "genres": ["Science Fiction", "Dystopian"],
+    "author": "Aldous Huxley",
+    "bookCover": "brave-new-world.jpg",
+    "characters": ["Bernard Marx", "John", "Lenina Crowne"],
+    "price": 9.5,
+    "isAvailable": true
+  },
+  {
+    "title": "Fahrenheit 451",
+    "description": "A dystopian future where books are outlawed and 'firemen' burn any that are found.",
+    "releaseDate": "1953-10-19",
+    "genres": ["Dystopian", "Science Fiction"],
+    "author": "Ray Bradbury",
+    "bookCover": "fahrenheit-451.jpg",
+    "characters": ["Guy Montag", "Clarisse", "Captain Beatty"],
+    "price": 7.75,
+    "isAvailable": true
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "description": "A story about teenage alienation and rebellion as told by Holden Caulfield.",
+    "releaseDate": "1951-07-16",
+    "genres": ["Classic", "Coming-of-Age"],
+    "author": "J.D. Salinger",
+    "bookCover": "catcher-in-the-rye.jpg",
+    "characters": ["Holden Caulfield", "Phoebe Caulfield", "Mr. Antolini"],
+    "price": 8.25,
+    "isAvailable": true
+  }
+]
