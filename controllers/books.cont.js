@@ -39,7 +39,7 @@ const updateBookById = async (req, res) => {
     const updatedBook = await Book.findByIdAndUpdate(
       req.params.id,
       req.body,
-      { new: true, runValidators: true }//return the updated movie //make sure the updated data is valid
+      { new: true, runValidators: true }//return the updated book //make sure the updated data is valid
     );
     res.status(200).json({ status: "success", data: { book: updatedBook } });
   } catch (error) {
@@ -50,18 +50,18 @@ const updateBookById = async (req, res) => {
 const deleteBookById = async (req, res) => {
   try {
     const deletedBook = await Book.findByIdAndDelete(req.params.id);
-    res.status(200).json({ status: "success", data: { movie: deletedBook } });
+    res.status(200).json({ status: "success", data: { book: deletedBook } });
   } catch (error) {
     res.status(404).json({ status: "fail", message: error.message });
   }
 };
 
 module.exports = {
-  createMovie,
-  getAllMovies,
-  getMovieById,
-  updateMovieById,
-  deleteMovieById,
+  createBook,
+  getAllBooks,
+  getBookById,
+  updateBookById,
+  deleteBookById,
 };
 
 

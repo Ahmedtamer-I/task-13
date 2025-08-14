@@ -1,16 +1,16 @@
 const express = require("express");
-const movieControllers = require("../controllers/movie.controllers");
+const bookControllers = require("../controllers/book.controllers");
 
 const router = express.Router();
 
 router
   .route("/")
-  .post(movieControllers.createMovie)
-  .get(movieControllers.getAllMovies);
+  .post(bookControllers.createBook)
+  .get(bookControllers.getAllBooks);
 router
   .route("/:id")
-  .get(movieControllers.getMovieById)
-  .patch(movieControllers.updateMovieById)
-  .delete(movieControllers.deleteMovieById);
+  .get(bookControllers.getBookById)
+  .patch(bookControllers.updateBookById)
+  .delete(bookControllers.deleteBookById);
 
 module.exports = router;
